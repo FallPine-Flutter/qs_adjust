@@ -1,0 +1,93 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter, Dart, and Pub generated files
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+coverage/
+**/doc/api/
+*.lcov
+test-results/
+
+# Flutter packages and plugins should not commit the root lock file.
+/pubspec.lock
+
+# FVM local SDK (keep .fvmrc and other shared version configuration)
+.fvm/flutter_sdk
+
+# Symbolication and obfuscation outputs
+app.*.symbols
+app.*.map.json
+symbols/
+
+# Android generated and machine-local files
+**/android/.gradle/
+**/android/.cxx/
+**/android/local.properties
+**/android/captures/
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/*.keystore
+**/*.jks
+**/*.apk
+**/*.aab
+
+# Apple platform generated files and Xcode user state
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+**/Flutter/.last_build_id
+**/Flutter/App.framework/
+**/Flutter/Flutter.framework/
+**/Flutter/Flutter.podspec
+**/Flutter/Generated.xcconfig
+**/Flutter/ephemeral/
+**/Flutter/flutter_export_environment.sh
+**/Flutter/flutter_assets/
+**/GeneratedPluginRegistrant.*
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Linux and Windows generated files
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/windows/x64/
+**/windows/x86/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local environment and temporary files (keep templates such as .env.example)
+.env
+.env.*
+!.env.example
+*.tmp
+*.temp
