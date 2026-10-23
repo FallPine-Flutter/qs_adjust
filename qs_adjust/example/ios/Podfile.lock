@@ -1,0 +1,163 @@
+PODS:
+  - Adjust (5.8.0):
+    - Adjust/Adjust (= 5.8.0)
+  - Adjust/Adjust (5.8.0):
+    - AdjustSignature (= 5.0.0)
+  - Adjust/AdjustGoogleOdm (5.8.0):
+    - Adjust/Adjust
+  - adjust_sdk (5.8.0):
+    - Adjust (= 5.8.0)
+    - Flutter
+  - AdjustSignature (5.0.0)
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_secure_storage_darwin (10.0.0):
+    - Flutter
+    - FlutterMacOS
+  - GoogleAdsOnDeviceConversion (3.0.0):
+    - GoogleUtilities/Environment (~> 8.1)
+    - GoogleUtilities/Logger (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - nanopb (~> 3.30910.0)
+  - GoogleUtilities/Environment (8.1.3):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.1.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (8.1.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (8.1.3)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.1.3)
+  - GoogleUtilities/Reachability (8.1.3):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - integration_test (0.0.1):
+    - Flutter
+  - nanopb (3.30910.0):
+    - nanopb/decode (= 3.30910.0)
+    - nanopb/encode (= 3.30910.0)
+  - nanopb/decode (3.30910.0)
+  - nanopb/encode (3.30910.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - qs_adjust (0.0.1):
+    - Adjust/AdjustGoogleOdm (= 5.8.0)
+    - Flutter
+  - qs_aes_encrypt (0.0.1):
+    - Flutter
+  - qs_asa_attribution_info (0.0.1):
+    - Flutter
+  - qs_device_info (0.0.1):
+    - Flutter
+  - qs_ip_location (0.0.1):
+    - Flutter
+  - qs_log (0.0.1):
+    - Flutter
+  - qs_net_request (0.0.1):
+    - Flutter
+  - qs_secure_storage (0.0.1):
+    - Flutter
+  - qs_storage_tool (0.0.1):
+    - Flutter
+  - qs_toast (0.0.1):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - adjust_sdk (from `.symlinks/plugins/adjust_sdk/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_secure_storage_darwin (from `.symlinks/plugins/flutter_secure_storage_darwin/darwin`)
+  - GoogleAdsOnDeviceConversion (= 3.0.0)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - qs_adjust (from `.symlinks/plugins/qs_adjust/ios`)
+  - qs_aes_encrypt (from `.symlinks/plugins/qs_aes_encrypt/ios`)
+  - qs_asa_attribution_info (from `.symlinks/plugins/qs_asa_attribution_info/ios`)
+  - qs_device_info (from `.symlinks/plugins/qs_device_info/ios`)
+  - qs_ip_location (from `.symlinks/plugins/qs_ip_location/ios`)
+  - qs_log (from `.symlinks/plugins/qs_log/ios`)
+  - qs_net_request (from `.symlinks/plugins/qs_net_request/ios`)
+  - qs_secure_storage (from `.symlinks/plugins/qs_secure_storage/ios`)
+  - qs_storage_tool (from `.symlinks/plugins/qs_storage_tool/ios`)
+  - qs_toast (from `.symlinks/plugins/qs_toast/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - GoogleAdsOnDeviceConversion
+    - GoogleUtilities
+    - nanopb
+
+EXTERNAL SOURCES:
+  adjust_sdk:
+    :path: ".symlinks/plugins/adjust_sdk/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_secure_storage_darwin:
+    :path: ".symlinks/plugins/flutter_secure_storage_darwin/darwin"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  qs_adjust:
+    :path: ".symlinks/plugins/qs_adjust/ios"
+  qs_aes_encrypt:
+    :path: ".symlinks/plugins/qs_aes_encrypt/ios"
+  qs_asa_attribution_info:
+    :path: ".symlinks/plugins/qs_asa_attribution_info/ios"
+  qs_device_info:
+    :path: ".symlinks/plugins/qs_device_info/ios"
+  qs_ip_location:
+    :path: ".symlinks/plugins/qs_ip_location/ios"
+  qs_log:
+    :path: ".symlinks/plugins/qs_log/ios"
+  qs_net_request:
+    :path: ".symlinks/plugins/qs_net_request/ios"
+  qs_secure_storage:
+    :path: ".symlinks/plugins/qs_secure_storage/ios"
+  qs_storage_tool:
+    :path: ".symlinks/plugins/qs_storage_tool/ios"
+  qs_toast:
+    :path: ".symlinks/plugins/qs_toast/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Adjust: 688831c353a5ecb137d7e9b20dcfebebb3469780
+  adjust_sdk: 54fd6934b074277ecfa1f9988d61e7ac5417eb02
+  AdjustSignature: 2185aff42830b87214d84bee45da09c65129c12c
+  device_info_plus: 21fcca2080fbcd348be798aa36c3e5ed849eefbe
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_secure_storage_darwin: acdb3f316ed05a3e68f856e0353b133eec373a23
+  GoogleAdsOnDeviceConversion: b4fcc557983271d53177d75ddf704c025791d261
+  GoogleUtilities: 4e0c2ad9fa0d0d18b5c4df8bf57b461cba35b0bb
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+  nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
+  package_info_plus: af8e2ca6888548050f16fa2f1938db7b5a5df499
+  qs_adjust: ec06a641b56b0987509c308189a8c369cadd6d5b
+  qs_aes_encrypt: a27ca6c966b107d88f1b3daa85bda24d195b93ba
+  qs_asa_attribution_info: 8acc259c8148868297378f0def175a1366c916d0
+  qs_device_info: 5f73f0b3cd1eae0485fcf751804c973b8784e30a
+  qs_ip_location: 6bdbe948407b310c409700e098fbb98423a1bc4b
+  qs_log: 575eba997b50f2c767036eda18f1d50595035715
+  qs_net_request: 3dcc63e46a997b3256a60bb8a225e6b69e109cbb
+  qs_secure_storage: 7581d5b63a008137948a20c50151bd1ab8d4d79c
+  qs_storage_tool: cfa3da02559d67f331dcf68779d420d13e799f2e
+  qs_toast: 84e171a4d1389678925a13df448825db6d9f014b
+  shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
+
+PODFILE CHECKSUM: e1468450c3851b790d0e45520119b2ca51d31b4e
+
+COCOAPODS: 1.17.0
