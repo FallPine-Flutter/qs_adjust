@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:adjust_sdk/adjust_event.dart';
 import 'package:flutter/foundation.dart';
 import 'package:adjust_sdk/adjust.dart';
 import 'package:adjust_sdk/adjust_attribution.dart';
@@ -349,6 +350,12 @@ class QsAdjust {
       QsLog.error("jsonEncode error: $e");
       return "";
     }
+  }
+
+  /// 发送事件
+  static void trackEvent({required String eventToken}) {
+    AdjustEvent event = AdjustEvent(eventToken);
+    Adjust.trackEvent(event);
   }
 
   /// Properties

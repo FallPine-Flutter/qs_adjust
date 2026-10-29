@@ -1,6 +1,6 @@
 name: qs_adjust
 description: "Adjust插件"
-version: 1.0.0
+version: 1.0.1
 homepage: "https://github.com/FallPine-Flutter/qs_adjust"
 
 environment:
